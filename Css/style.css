@@ -1,41 +1,99 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    color: gray;
-   
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: gray;
 }
 
 /* navbar style started */
-header{
-    margin: 3rem;
-    background-color: #fff;
-  
-  
-
+header {
+  margin: 3rem;
+  background-color: #fff;
 }
 
-.navbar{
-    margin-top: 1rem;
-    display: flex;
-    gap: 7rem;
-    font-size: 18px;
-
-   
+.navbar {
+  margin-top: 1rem;
+  display: flex;
+  gap: 7rem;
+  font-size: 18px;
 }
 
- .logo{
-    line-height: 10px;
-    margin-left: 90px;
-    cursor: pointer;
-    font-size: 50px;
+.logo {
+  line-height: 10px;
+  margin-left: 70px;
+  cursor: pointer;
+  font-size: 50px;
 }
 
-
-span{
-    color:rgba(76, 76, 109, 0.904);
+span {
+  color: rgba(76, 76, 109, 0.904);
 }
 
 /* navbar style end  */
+
+/* home section style start */
+
+/* Container section  styles  start*/
+
+/* container style  */
+.container {
+  background-color: rgba(244, 244, 244, 255);
+  display: flex;
+  padding: 20px;
+}
+
+/* Card  styles */
+.card {
+  margin: 20px;
+}
+
+/* Image inside the card */
+.card img {
+  width: 100%;
+}
+
+/* Card header styles */
+.card-header {
+  padding: 10px;
+  color: black;
+  text-align: start;
+}
+
+/* Card content styles */
+.card-content {
+  padding: 20px;
+}
+
+/* Container section  styles end */
+
+/* box section style */
+
+/* box  styles */
+.box {
+  background-color: rgba(244, 244, 244, 255);
+  display: flex;
+  margin: 50px;
+  padding: 40px;
+  gap: 2pc;
+  
+}
+
+/* image insdie box  */
+
+ .box img {
+  width:100%;
+} 
+
+.box .left-part  {
+  width:50%;
+}
+
+.box .right-part  {
+  width:50%;
+}
+/* box section style end  */
+
+
+
+/* home section style end  */
