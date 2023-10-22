@@ -51,9 +51,14 @@ header {
 
 /* Card header styles */
 .card-header {
-  padding: 10px;
   color: black;
   text-align: start;
+  font-size: 20px;
+  color: black !important;
+  font-family: arial !important;
+  font-weight: 600;
+  padding-top: 20px;
+  line-height: 26px;
 }
 
 /* Card content styles */
@@ -113,5 +118,55 @@ header {
  
 }
 /* box1 section style end  */
+
+
+/* box2 style start  */
+.box2{
+  margin: 50px;
+  
+}
+
+.box2 h5{
+  font-size: 20px;
+  color: #231F20 !important;
+  font-family: arial !important;
+  font-weight: 600;
+  padding-top: 22px;
+  line-height: 26px;
+}
+
+.feature{
+  display: flex;
+}
+/* box2 style end  */
+ 
+
+
+/* CUBE Series Presentation section  style start */
+
+.presentation{
+  margin: 50px;
+  overflow: hidden;
+}
+
+.presentation h5{
+  font-size: 20px;
+  color: #231F20 !important;
+  font-family: arial !important;
+  font-weight: 600;
+  padding-top: 22px;
+  line-height: 26px;
+}
+
+.presentation-video{
+  width: 100%;
+ 
+}
+
+/* CUBE Series Presentation section  style end */
+
+
+
+
 
 /* home section style end  */
