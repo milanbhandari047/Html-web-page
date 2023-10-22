@@ -10,7 +10,7 @@
 /* navbar style started */
 header {
   margin: 3rem;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .navbar {
@@ -20,6 +20,9 @@ header {
   font-size: 18px;
 }
 
+.navbar a{
+  color:gray;
+}
 .logo {
   margin-left: 70px;
   margin-top: -18px;
@@ -91,88 +94,80 @@ header {
 
 /* image insdie box  */
 
-.box img , .left-part , .right-part{
+.box img,
+.left-part,
+.right-part {
   width: 100%;
 }
 
 /* box section style end  */
 
-
-
 /* box1 section style start */
 
-.box1{
+.box1 {
   margin: 50px;
 }
-.box1 h5{
+.box1 h5 {
   font-size: 20px;
-  color: #231F20 !important;
+  color: #231f20 !important;
   font-family: arial !important;
   font-weight: 600;
   padding-top: 22px;
   line-height: 26px;
 }
-.box1-img img{
+.box1-img img {
   width: 100%;
-  border:1.5px solid whitesmoke;
- 
+  border: 1.5px solid whitesmoke;
 }
 /* box1 section style end  */
 
-
 /* box2 style start  */
-.box2{
+.box2 {
   margin: 50px;
-  
 }
 
-.box2 h5{
+.box2 h5 {
   font-size: 20px;
-  color: #231F20 !important;
+  color: #231f20 !important;
   font-family: arial !important;
   font-weight: 600;
   padding-top: 22px;
   line-height: 26px;
 }
 
-.feature{
+.feature {
   display: flex;
 }
 /* box2 style end  */
- 
-
 
 /* CUBE Series Presentation section  style start */
 
-.presentation{
+.presentation {
   margin: 50px;
   overflow: hidden;
 }
 
-.presentation h5{
+.presentation h5 {
   font-size: 20px;
-  color: #231F20 !important;
+  color: #231f20 !important;
   font-family: arial !important;
   font-weight: 600;
   padding-top: 22px;
   line-height: 26px;
 }
 
-.presentation-video{
+.presentation-video {
   width: 100%;
- 
 }
 
 /* CUBE Series Presentation section  style end */
 
 /* home section style end  */
 
-
 /* footer section style start  */
 
-
 footer {
-  background-color:rgba(77,83,84,255);
+  background-color: rgba(77, 83, 84, 255);
   color: white;
   padding: 20px 0;
 }
@@ -195,8 +190,8 @@ footer {
   margin: 10px;
 }
 
-.col p{
-  color: rgb(192, 191, 191);
+.col p {
+  color: rgb(226, 221, 221);
 }
 h4 {
   color: orange;
@@ -212,21 +207,17 @@ li {
 }
 
 a {
-  color: white;
+  color: rgb(226, 221, 221);
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-.font{
-  display:flex;
+.font {
+  display: flex;
   flex-direction: column;
   margin-top: 5px;
 }
-.colored{
- margin-top: 5px;
+.colored {
+  margin-top: 5px;
   color: orange;
 }
 
@@ -238,10 +229,10 @@ a:hover {
   width: 90%;
 }
 
-.social-links{
+.social-links {
   margin-top: 20px;
   font-size: large;
-} 
+}
 
 .social-link {
   color: white;
@@ -252,7 +243,7 @@ a:hover {
 }
 
 .copyright-row {
-  background-color:rgba(49,54,56,255);
+  background-color: rgba(49, 54, 56, 255);
   padding: 10px 0;
   text-align: center;
 }
