@@ -165,8 +165,107 @@ header {
 
 /* CUBE Series Presentation section  style end */
 
-
-
-
-
 /* home section style end  */
+
+
+/* footer section style start  */
+
+
+footer {
+  background-color:rgba(77,83,84,255);
+  color: white;
+  padding: 20px 0;
+}
+
+.container-box {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.col {
+  flex: 1;
+  margin: 10px;
+}
+
+.col p{
+  color: rgb(192, 191, 191);
+}
+h4 {
+  color: orange;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.font{
+  display:flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+.colored{
+ margin-top: 5px;
+  color: orange;
+}
+
+.search-input {
+  background-color: rgb(179, 179, 179);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px;
+  width: 90%;
+}
+
+.social-links{
+  margin-top: 20px;
+  font-size: large;
+} 
+
+.social-link {
+  color: white;
+  margin-right: 10px;
+  border-radius: 50%;
+  font-size: 50px;
+  /* gap:5px ; */
+}
+
+.copyright-row {
+  background-color:rgba(49,54,56,255);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.copyright {
+  margin-top: 10px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .col {
+    flex: 0 0 100%;
+  }
+}
+
+/* footer section style end  */
