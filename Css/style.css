@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   color: gray;
+  font-family: Century Gothic;
 }
 
 /* navbar style started */
@@ -85,17 +86,32 @@ header {
 
 /* image insdie box  */
 
-.box img {
+.box img , .left-part , .right-part{
   width: 100%;
 }
 
-.box .left-part {
-  width: 50%;
-}
-
-.box .right-part {
-  width: 50%;
-}
 /* box section style end  */
+
+
+
+/* box1 section style start */
+
+.box1{
+  margin: 50px;
+}
+.box1 h5{
+  font-size: 20px;
+  color: #231F20 !important;
+  font-family: arial !important;
+  font-weight: 600;
+  padding-top: 22px;
+  line-height: 26px;
+}
+.box1-img img{
+  width: 100%;
+  border:1.5px solid whitesmoke;
+ 
+}
+/* box1 section style end  */
 
 /* home section style end  */
